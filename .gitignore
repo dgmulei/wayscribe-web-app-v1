@@ -32,5 +32,5 @@ sessions/
 *.session.json
 session-backup*.tar.gz
 
-# Misc
+# Miscellaneous
 session-viewer.html

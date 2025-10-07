@@ -435,7 +435,7 @@ app.get('/health', async (req, res) => {
   });
 });
 
-// Export all sessions endpoint
+// Export all session endpoint
 app.get('/api/export-sessions', async (req, res) => {
   try {
     const sessions = await sessionStore.getAllSessions();
