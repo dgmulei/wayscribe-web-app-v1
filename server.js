@@ -7,7 +7,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import multer from 'multer';
 import fs from 'fs/promises';
-import { FileSessionStore } from './persistence/FileSessionStore.js';
+import { PostgresSessionStore } from './persistence/PostgresSessionStore.js';
 
 // Load environment variables
 dotenv.config();
@@ -94,8 +94,8 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(__dirname));
 }
 
-// Session storage (file-based)
-const sessionStore = new FileSessionStore();
+// Session storage (Postgres)
+const sessionStore = new PostgresSessionStore();
 
 // Cleanup old sessions hourly
 setInterval(async () => {
@@ -435,6 +435,46 @@ app.get('/health', async (req, res) => {
   });
 });
 
+// Export all sessions endpoint
+app.get('/api/export-sessions', async (req, res) => {
+  try {
+    const sessions = await sessionStore.getAllSessions();
+    
+    // Return as JSON with proper headers
+    res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Content-Disposition', 'attachment; filename=sessions-export.json');
+    res.json(sessions);
+  } catch (error) {
+    console.error('Error exporting sessions:', error);
+    res.status(500).json({ error: 'Failed to export sessions' });
+  }
+});
+
+// Optional: Export as CSV format (easier for spreadsheets)
+app.get('/api/export-sessions/csv', async (req, res) => {
+  try {
+    const sessions = await sessionStore.getAllSessions();
+    
+    // Create CSV header
+    let csv = 'Session ID,Domain,Created At,Last Activity,Message Count,Conversation JSON\n';
+    
+    // Add each session as a row
+    sessions.forEach(session => {
+      const messageCount = session.history ? session.history.length : 0;
+      const conversationJson = JSON.stringify(session.history || []).replace(/"/g, '""'); // Escape quotes
+      
+      csv += `"${session.id}","${session.domain || ''}","${session.createdAt || ''}","${session.lastActivity || ''}",${messageCount},"${conversationJson}"\n`;
+    });
+    
+    res.setHeader('Content-Type', 'text/csv');
+    res.setHeader('Content-Disposition', 'attachment; filename=sessions-export.csv');
+    res.send(csv);
+  } catch (error) {
+    console.error('Error exporting sessions as CSV:', error);
+    res.status(500).json({ error: 'Failed to export sessions as CSV' });
+  }
+});
+
 // Session info endpoint (for debugging)
 app.get('/api/session/:sessionId/info', async (req, res) => {
   const session = await sessionStore.load(req.params.sessionId);
@@ -451,8 +491,9 @@ app.get('/api/session/:sessionId/info', async (req, res) => {
 });
 
 // Graceful shutdown
-process.on('SIGTERM', () => {
+process.on('SIGTERM', async () => {  // ← Add 'async' here
   console.log('SIGTERM received, closing server...');
+  await sessionStore.close(); // Close database connections gracefully
   server.close(() => {
     console.log('Server closed');
     process.exit(0);

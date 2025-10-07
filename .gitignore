@@ -31,3 +31,6 @@ logs/
 sessions/
 *.session.json
 session-backup*.tar.gz
+
+# Misc
+session-viewer.html
