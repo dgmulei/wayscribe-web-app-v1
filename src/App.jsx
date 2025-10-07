@@ -551,35 +551,7 @@ const App = () => {
         </div>
       </div>
       
-      {/* Session Info Bar */}
-      {sessionId && (
-        <div className="fixed bottom-0 left-0 right-96 z-30 pointer-events-none">
-          <div className="flex justify-end px-4 pb-32">
-            <div className="bg-white/90 backdrop-blur border border-gray-200 rounded-lg px-4 py-2 flex items-center justify-between shadow-sm pointer-events-auto min-w-[320px] max-w-md">
-              <div className="text-xs text-gray-600">
-                <span className="font-medium">Session ID:</span>
-                <code className="ml-2 px-2 py-0.5 bg-gray-100 rounded">{sessionId.slice(0, 8)}...</code>
-              </div>
-              <button
-                onClick={() => {
-                  const url = window.location.href;
-                  navigator.clipboard.writeText(url);
-                  
-                  // Simple inline toast
-                const toast = document.createElement('div');
-                toast.className = 'fixed top-20 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white px-4 py-2 rounded-lg text-sm shadow-lg z-50';
-                toast.textContent = 'Link copied to clipboard!';
-                document.body.appendChild(toast);
-                setTimeout(() => toast.remove(), 2000);
-              }}
-className="text-xs px-3 py-1 bg-indigo-600 text-white rounded hover:bg-indigo-700"
-            >
-              Copy Link
-            </button>
-          </div>
-        </div>
-      </div>
-      )}
+      
     </div>
   );
 };

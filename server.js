@@ -7,6 +7,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import multer from 'multer';
 import fs from 'fs/promises';
+import { FileSessionStore } from './persistence/FileSessionStore.js';
 import { PostgresSessionStore } from './persistence/PostgresSessionStore.js';
 
 // Load environment variables
@@ -94,8 +95,10 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(__dirname));
 }
 
-// Session storage (Postgres)
-const sessionStore = new PostgresSessionStore();
+// Session storage (Files local Postgres deployed)
+const sessionStore = process.env.DATABASE_URL 
+  ? new PostgresSessionStore() 
+  : new FileSessionStore();
 
 // Cleanup old sessions hourly
 setInterval(async () => {
