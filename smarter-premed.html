@@ -1215,22 +1215,20 @@ Leverage Connecticut residency for Yale (primary) and UConn (strong in-state). N
         });
         
         // Email gate handling
-        document.getElementById('emailGateForm').addEventListener('submit', function(e) {
+        document.getElementById('emailGateForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             
             const formData = new FormData(e.target);
-            const name = formData.get('name');
-            const email = formData.get('email');
             
-            // TODO: Send to your backend/CRM
-            // For now, just log and hide gate
-            console.log('Lead captured:', { name, email, source: 'SPM Advisor Landing Demo' });
+            // Submit to Formspree
+            await fetch('https://formspree.io/f/xvgwvwbj', {
+                method: 'POST',
+                body: formData,
+                headers: { 'Accept': 'application/json' }
+            });
             
             // Hide the gate
             document.getElementById('emailGate').classList.add('hidden');
-            
-            // Optional: Track with analytics
-            // gtag('event', 'demo_access', { method: 'email_gate' });
         });
     </script>
 </body>
