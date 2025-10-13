@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smarter PreMed - Your Personal Premed Advisor, Available 24/7</title>
+    <title>Smarter PreMed for Advisors - Strategic Positioning Intelligence</title>
     <style>
         * {
             margin: 0;
@@ -260,10 +260,240 @@
             line-height: 1.7;
         }
 
+        /* Sample Deliverables Section */
+        .deliverables {
+            padding: 80px 20px;
+            background: white;
+        }
+        
+        .deliverables-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .deliverables h2 {
+            font-size: 42px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 24px;
+            color: #1a1a1a;
+        }
+        
+        .deliverables-intro {
+            text-align: center;
+            font-size: 18px;
+            color: #6b7280;
+            margin-bottom: 48px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .sample-card {
+            background: #f8fafc;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 32px;
+        }
+        
+        .sample-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        
+        .sample-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1e40af;
+        }
+        
+        .sample-badge {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .sample-content {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 32px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.8;
+            color: #374151;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .sample-content h3 {
+            font-size: 16px;
+            font-weight: 700;
+            margin: 20px 0 10px 0;
+            color: #1a1a1a;
+        }
+        
+        .sample-content h3:first-child {
+            margin-top: 0;
+        }
+        
+        .sample-content ul {
+            margin-left: 20px;
+        }
+        
+        .sample-content li {
+            margin-bottom: 8px;
+        }
+        
+        /* Tab Navigation */
+        .tab-nav {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 24px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        .tab-button {
+            background: none;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #6b7280;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+            position: relative;
+            bottom: -2px;
+        }
+        
+        .tab-button:hover {
+            color: #1e40af;
+        }
+        
+        .tab-button.active {
+            color: #1e40af;
+            border-bottom-color: #1e40af;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Email Gate Modal */
+        .email-gate-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.98);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            backdrop-filter: blur(4px);
+        }
+        
+        .email-gate-overlay.hidden {
+            display: none;
+        }
+        
+        .email-gate-content {
+            max-width: 480px;
+            padding: 48px 40px;
+            text-align: center;
+        }
+        
+        .email-gate-icon {
+            width: 64px;
+            height: 64px;
+            stroke: #1e40af;
+            stroke-width: 1.5;
+            fill: none;
+            margin: 0 auto 24px;
+        }
+        
+        .email-gate-content h3 {
+            font-size: 28px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+        
+        .email-gate-content p {
+            font-size: 16px;
+            color: #6b7280;
+            margin-bottom: 32px;
+            line-height: 1.6;
+        }
+        
+        .email-gate-form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .email-gate-input {
+            padding: 14px 18px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 15px;
+            transition: border-color 0.2s;
+            font-family: inherit;
+        }
+        
+        .email-gate-input:focus {
+            outline: none;
+            border-color: #1e40af;
+        }
+        
+        .email-gate-input::placeholder {
+            color: #9ca3af;
+        }
+        
+        .email-gate-submit {
+            background: #1e40af;
+            color: white;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-family: inherit;
+        }
+        
+        .email-gate-submit:hover {
+            background: #1e3a8a;
+        }
+        
+        .email-gate-privacy {
+            font-size: 13px;
+            color: #9ca3af;
+            margin-top: 16px;
+        }
+
         /* Comparison Table */
         .comparison {
             padding: 80px 20px;
-            background: white;
+            background: #f8fafc;
         }
         
         .comparison-content {
@@ -320,7 +550,7 @@
         /* Features Grid */
         .features {
             padding: 80px 20px;
-            background: #f8fafc;
+            background: white;
         }
         
         .features-content {
@@ -343,10 +573,10 @@
         }
         
         .feature {
-            background: white;
+            background: #f8fafc;
             padding: 40px;
             border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border: 1px solid #e5e7eb;
             transition: transform 0.2s, box-shadow 0.2s;
         }
         
@@ -518,6 +748,10 @@
             text-decoration: none;
         }
         
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
         /* Responsive */
         @media (max-width: 768px) {
             .hero h1 {
@@ -528,7 +762,7 @@
                 font-size: 18px;
             }
             
-            .problem h2, .solution h2, .comparison h2, .features h2 {
+            .problem h2, .solution h2, .comparison h2, .features h2, .deliverables h2 {
                 font-size: 32px;
             }
             
@@ -559,12 +793,12 @@
     <!-- Hero -->
     <section class="hero">
         <div class="hero-content">
-            <div class="hero-eyebrow">For PreMed Students</div>
-            <h1>Your Personal Premed Advisor, Available 24/7</h1>
-            <p class="hero-subhead">Get confident answers to every high-stakes decision—from "Should I apply this cycle?" to "Which schools match my profile?"—for less than the cost of one consulting session.</p>
+            <div class="hero-eyebrow">For Pre-Med Advisors</div>
+            <h1>10 Minutes vs. 30+ Minutes. Same Positioning Quality.</h1>
+            <p class="hero-subhead">Transform manual student assessments into data-driven cohort positioning using the Whitecoat Framework. Serve twice as many students without sacrificing consultation quality.</p>
             <a href="#consultation" class="hero-cta">
-                <span class="hero-cta-main">Start Your First Consultation</span>
-                <span class="hero-cta-sub">Try it free • No signup required</span>
+                <span class="hero-cta-main">See the Platform in Action</span>
+                <span class="hero-cta-sub">Try it free • No credit card required</span>
             </a>
         </div>
     </section>
@@ -573,12 +807,12 @@
     <section class="stats-bar">
         <div class="stats-content">
             <div class="stat">
-                <div class="stat-number">$49/mo</div>
-                <div class="stat-label">vs. $4,000-$8,000 consulting</div>
+                <div class="stat-number">20 min</div>
+                <div class="stat-label">Saved per assessment</div>
             </div>
             <div class="stat">
-                <div class="stat-number">24/7</div>
-                <div class="stat-label">Strategic guidance on demand</div>
+                <div class="stat-number">$17K-$52K</div>
+                <div class="stat-label">Annual capacity gains</div>
             </div>
             <div class="stat">
                 <div class="stat-number">270+</div>
@@ -586,7 +820,7 @@
             </div>
             <div class="stat">
                 <div class="stat-number">Unlimited</div>
-                <div class="stat-label">Conversations & deliverables</div>
+                <div class="stat-label">Strategic deliverables</div>
             </div>
         </div>
     </section>
@@ -594,13 +828,13 @@
     <!-- Problem -->
     <section class="problem">
         <div class="problem-content">
-            <div class="section-label">The Premed Dilemma</div>
-            <h2>You're drowning in advice but can't get real answers</h2>
+            <div class="section-label">The Advisor Challenge</div>
+            <h2>Managing 200+ students with spreadsheets and manual positioning</h2>
             <div class="problem-list">
-                <li><strong>"Should I apply this cycle or take a gap year?"</strong> Reddit gives 20 contradictory opinions.</li>
-                <li><strong>"Is my 3.6 GPA competitive?"</strong> Generic AI says "it depends" without actually analyzing YOUR situation.</li>
-                <li><strong>"Which schools should I target?"</strong> You're left Googling 270+ medical schools with no strategic framework.</li>
-                <li><strong>"Can I afford professional guidance?"</strong> Consultants charge $4,000-$8,000 with limited hours and fixed packages.</li>
+                <li><strong>"Can't I just use ChatGPT?"</strong> Generic AI gives "it depends" without systematic cohort positioning. Every consultation requires re-prompting.</li>
+                <li><strong>30+ minute assessments</strong> limit your capacity to 20-30 students annually despite market demand for 50+.</li>
+                <li><strong>Manual MSAR searches</strong> across 270+ medical schools waste billable hours on data lookup rather than strategic guidance.</li>
+                <li><strong>Inconsistent positioning</strong> across students without a repeatable framework undermines professional credibility.</li>
             </div>
         </div>
     </section>
@@ -609,23 +843,156 @@
     <section class="solution">
         <div class="solution-content">
             <div class="section-label">How Smarter PreMed Works</div>
-            <h2>Strategic positioning intelligence for YOUR specific situation</h2>
+            <h2>Systematic positioning intelligence for professional advisors</h2>
             <div class="value-props">
                 <div class="value-prop">
-                    <h3>Personalized to YOUR Situation</h3>
-                    <p>Not generic advice. We analyze YOUR stats, timeline, and goals to answer "Should I apply THIS cycle?" and "Which schools match MY profile?" Every answer is built for your specific circumstances—non-trad status, upward GPA trends, gap year decisions.</p>
+                    <h3>Systematic Framework vs. Generic AI</h3>
+                    <p>ChatGPT can't do cohort positioning—it lacks encoded expertise. Smarter PreMed applies the Whitecoat Framework with five strategic cohorts across 270+ schools. Every student gets the same quality positioning analysis with repeatable methodology.</p>
                 </div>
                 <div class="value-prop">
-                    <h3>Expert Methodology You Can Trust</h3>
-                    <p>Uses the proven Whitecoat Cohort Framework to strategically position you across 270+ US medical schools—from Mission-Driven to Research-Intensive programs. Same diagnostic methodology whether you ask about competitiveness, school lists, or timeline.</p>
+                    <h3>Capacity That Scales Your Practice</h3>
+                    <p>From 30-minute manual positioning to 10-minute data-driven assessments. That's $17,000-$52,000 in annual additional capacity at $200-$500/hour billing rates. Serve more students, grow your practice. Take on 2x students without 2x hours.</p>
                 </div>
                 <div class="value-prop">
-                    <h3>Structured Deliverables You Can Use</h3>
-                    <p>Not just chat conversations. Get actual strategic documents—Cohort Positioning Analysis, Mission-Aligned School Lists, Gap-Closing Roadmaps with specific actions and timelines. Artifacts you can share with advisors and reference throughout your journey.</p>
+                    <h3>Professional Deliverables Clients Value</h3>
+                    <p>Not just consultation notes—structured strategic documents. Generate unlimited Cohort Positioning Analysis, Mission-Aligned School Lists, Gap-Closing Roadmaps. Client-ready formatting, shareable with students and parents.</p>
                 </div>
                 <div class="value-prop">
-                    <h3>Ongoing Relationship Throughout Your Journey</h3>
-                    <p>Available whenever you need guidance—3am application panic, interview prep, final school decisions. No hourly limits. No per-deliverable fees. Just continuous strategic support for $49/month vs. $4,000-$8,000 consulting packages.</p>
+                    <h3>Built for Advisor Workflows</h3>
+                    <p>Complements MSAR, not replaces it. Works with your existing consultation process. Minimal training required. Advisor-focused features designed for professionals billing $200-$500/hour who need systematic, repeatable positioning methodology.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sample Deliverables -->
+    <section class="deliverables">
+        <div class="deliverables-content">
+            <h2>Professional Deliverables That Clients Value</h2>
+            <p class="deliverables-intro">Generate structured strategic documents during consultations. Here's what advisors create using Smarter PreMed:</p>
+            
+            <div class="tab-nav">
+                <button class="tab-button active" data-tab="cohort-analysis">Cohort Positioning Analysis</button>
+                <button class="tab-button" data-tab="school-list">Mission-Aligned School List</button>
+            </div>
+            
+            <div id="cohort-analysis" class="tab-content active">
+                <div class="sample-card">
+                    <div class="sample-header">
+                        <h3 class="sample-title">Cohort Positioning Analysis</h3>
+                        <span class="sample-badge">Sample Output</span>
+                    </div>
+                    <div class="sample-content">
+<h3>Best Fit: Clinical-Investigative</h3>
+<strong>Profile Alignment:</strong> With Nature Neuroscience submission pending and 300+ research hours, combined with planned 2,000+ MA clinical hours post-gap, this student embodies the Clinical-Investigative archetype. These programs value candidates who bridge bench research and clinical medicine—exactly this student's trajectory.
+
+<strong>Competitive Benchmarks:</strong>
+- GPA: 3.82 (above 75th percentile for cohort)
+- MCAT: Target 515+ (median for cohort: 513-517)
+- Research: 300+ hours + publication = exceptional
+- Clinical: 2,000+ MA hours = strong for cohort
+- Leadership: Student government + athletics = competitive
+
+<strong>Exemplar Schools:</strong>
+Yale, Case Western, Rochester, Duke, Boston University, Tufts, Northwestern, Albert Einstein, Icahn Mount Sinai
+
+<h3>Second Best Fit: Research-Intensive</h3>
+<strong>Profile Alignment:</strong> Nature Neuroscience publication positions student as research-competitive at elite programs. However, gap year clinical hours are necessary—Research-Intensive schools increasingly expect clinical depth alongside research credentials.
+
+<strong>Competitive Benchmarks:</strong>
+- GPA: 3.82 (at/above 75th percentile)
+- MCAT: Target 518+ (median for cohort: 517-521)
+- Research: Publication = highly competitive
+- Clinical: 2,000+ hours = minimum expected
+- Research Output: 1 high-impact pub = competitive
+
+<strong>Exemplar Schools:</strong>
+Harvard, Stanford, Penn, WashU, Columbia, UCSF, Johns Hopkins (Note: MCAT needs 518+ for realistic consideration)
+
+<h3>Moderate Fit: Community-Clinical</h3>
+<strong>Profile Alignment:</strong> Strong MA clinical hours fit this cohort, but research profile over-qualified. These schools value sustained community engagement and clinical depth—student meets clinical benchmark but research/stats suggest aiming higher.
+
+<strong>Competitive Benchmarks:</strong>
+- GPA: 3.82 (well above median of 3.65-3.75)
+- MCAT: Any 508+ competitive (over-qualified)
+- Clinical: 2,000+ hours = excellent fit
+- Community: MA work aligns but lacks explicit community mission
+
+<strong>Exemplar Schools:</strong>
+Drexel, Temple, Vermont, Medical College Wisconsin, Quinnipiac, Geisinger Commonwealth
+
+<h3>Lower Fit: Patient-Centered</h3>
+<strong>Profile Alignment:</strong> Research emphasis mismatches this cohort's priorities. While MA clinical work demonstrates patient interaction, schools in this cohort value communication-focused profiles over research productivity.
+
+<strong>Competitive Benchmarks:</strong>
+- Stats competitive but profile misaligned
+- Research overshadows patient-centered narrative
+- Better positioned for investigation-focused programs
+
+<strong>Exemplar Schools:</strong>
+University of Chicago, UVA, Loyola Chicago (Consider 1-2 if mission resonates)
+
+<h3>Least Fit: Mission-Driven</h3>
+<strong>Profile Alignment:</strong> Profile doesn't match cohort priorities. Mission-Driven schools seek service-oriented candidates with deep community ties and health equity focus. This student's research emphasis and high stats suggest different trajectory.
+
+<strong>Why Not Recommended:</strong>
+- Research focus misaligns with service mission
+- Stats above typical Mission-Driven medians (could face yield protection)
+- Limited community health/advocacy narrative
+- Better options in Clinical-Investigative cohort
+
+<strong>Exemplar Schools:</strong>
+Morehouse, Howard, Meharry (Skip unless mission deeply authentic to student's story)
+                    </div>
+                </div>
+            </div>
+            
+            <div id="school-list" class="tab-content">
+                <div class="sample-card">
+                    <div class="sample-header">
+                        <h3 class="sample-title">Mission-Aligned School List</h3>
+                        <span class="sample-badge">Sample Output</span>
+                    </div>
+                    <div class="sample-content">
+<h3>Alignment Philosophy</h3>
+With Nature Neuroscience publication pending and 300+ research hours, this student's authentic strength lies in Clinical-Investigative programs. Post-gap year with 2,000+ MA clinical hours and strong MCAT (projected 515+), they'll be competitive at research-oriented programs that value both bench science and clinical depth. Connecticut residency provides strong in-state advantage.
+
+<h3>Primary Targets (Mission Perfect)</h3>
+<strong>Clinical-Investigative Cohort</strong>
+- <strong>Yale School of Medicine</strong> (In-state) - Research powerhouse, values investigation + clinical commitment
+- <strong>University of Rochester</strong> - Strong research, accepts 40% OOS, values balanced profiles  
+- <strong>Case Western Reserve</strong> - Heavy research emphasis, robust clinical training
+- <strong>Boston University</strong> - Clinical-investigative mission, strong Northeast ties
+- <strong>Tufts University</strong> - Research + primary care blend, values MA clinical work
+- <strong>Albert Einstein</strong> - Research focus with community clinical component
+
+<h3>Strong Fits (Value Aligned)</h3>
+<strong>Research-Intensive Reaches</strong>
+- <strong>UConn School of Medicine</strong> (In-state) - Strong in-state preference, research opportunities
+- <strong>Duke University</strong> - Top research, competitive but profile aligns
+- <strong>University of Pennsylvania</strong> - Research powerhouse, values publication record
+- <strong>Northwestern (Feinberg)</strong> - Balanced research/clinical, strong admissions data
+
+<h3>Strategic Reaches (Dream Shots)</h3>
+<strong>Elite Research Programs</strong>
+- <strong>Harvard Medical School</strong> - Nature Neuroscience publication + gap year positioning
+- <strong>Stanford University</strong> - Research emphasis, values non-traditional paths
+- <strong>Washington University (WashU)</strong> - Top research, strong Midwest clinical
+
+<h3>Safety Net (Solid Foundations)</h3>
+<strong>Community-Clinical Programs</strong>
+- <strong>Quinnipiac University</strong> - Connecticut location, values in-state MA work
+- <strong>University of Vermont (Larner)</strong> - Regional ties, research + rural medicine
+- <strong>Medical College of Wisconsin</strong> - Research opportunities, strong clinical training
+- <strong>Drexel University</strong> - Philadelphia location, accepts diverse profiles
+
+<h3>Geographic Strategy</h3>
+Leverage Connecticut residency for Yale (primary) and UConn (strong in-state). Northeast concentration (MA, CT, NY, PA) maximizes regional ties from MA clinical work and Wesleyan connections. Limited Midwest reaches where research profile compensates for OOS status.
+
+<strong>Total schools: 18</strong>
+
+<em>Recommended application strategy: Submit all 18 by mid-June 2027. Pre-write secondaries for top 6 targets during May. Budget $10,500 for application cycle (primaries + secondaries + travel).</em>
+                    </div>
                 </div>
             </div>
         </div>
@@ -640,47 +1007,41 @@
                     <thead>
                         <tr>
                             <th>Feature</th>
-                            <th>ChatGPT & Forums</th>
+                            <th>ChatGPT & Generic AI</th>
+                            <th>MSAR Database</th>
                             <th class="highlight-col">Smarter PreMed</th>
-                            <th>Consulting Packages</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td><strong>Price</strong></td>
-                            <td>$0</td>
-                            <td class="highlight-col">$588/year ($49/mo)</td>
-                            <td>$4,000-$20,000</td>
+                            <td><strong>Systematic Methodology</strong></td>
+                            <td>"It depends" answers</td>
+                            <td>Raw data only</td>
+                            <td class="highlight-col">Whitecoat Framework</td>
                         </tr>
                         <tr>
-                            <td><strong>Personalization</strong></td>
+                            <td><strong>Assessment Time</strong></td>
+                            <td>20+ min prompting</td>
+                            <td>30+ min manual</td>
+                            <td class="highlight-col">10 minutes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Repeatable Results</strong></td>
+                            <td>Varies by prompt</td>
                             <td>Self-directed</td>
-                            <td class="highlight-col">High (YOUR situation)</td>
-                            <td>High</td>
+                            <td class="highlight-col">Consistent cohort positioning</td>
                         </tr>
                         <tr>
-                            <td><strong>Availability</strong></td>
-                            <td>24/7 but impersonal</td>
-                            <td class="highlight-col">24/7 expert access</td>
-                            <td>Limited hours/sessions</td>
+                            <td><strong>Professional Deliverables</strong></td>
+                            <td>Chat transcripts</td>
+                            <td>None</td>
+                            <td class="highlight-col">Unlimited structured docs</td>
                         </tr>
                         <tr>
-                            <td><strong>Strategic Framework</strong></td>
-                            <td>"It depends"</td>
-                            <td class="highlight-col">Whitecoat Cohort System</td>
-                            <td>Varies by consultant</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Relationship Length</strong></td>
-                            <td>Ad hoc</td>
-                            <td class="highlight-col">Continuous (12-18mo avg)</td>
-                            <td>Fixed package hours</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Deliverables</strong></td>
-                            <td>Unstructured</td>
-                            <td class="highlight-col">Unlimited strategic docs</td>
-                            <td>5-10 schools, limited</td>
+                            <td><strong>Advisor ROI</strong></td>
+                            <td>Time sink</td>
+                            <td>Data access</td>
+                            <td class="highlight-col">$17K-52K capacity gains</td>
                         </tr>
                     </tbody>
                 </table>
@@ -691,23 +1052,23 @@
     <!-- Features -->
     <section class="features">
         <div class="features-content">
-            <h2>Everything You Need to Get Accepted</h2>
+            <h2>Everything You Need to Scale Your Practice</h2>
             <div class="features-grid">
                 <div class="feature">
                     <svg class="feature-icon" viewBox="0 0 24 24">
                         <circle cx="12" cy="12" r="10"/>
                         <path d="M12 6v6l4 2"/>
                     </svg>
-                    <h3>WhiteCoat Cohort Positioning</h3>
-                    <p>Understand exactly where you fit among five strategic cohorts—Mission-Driven, Patient-Centered, Community-Clinical, Clinical-Investigative, and Research-Intensive schools. Know your competitive position before you apply.</p>
+                    <h3>WhiteCoat Cohort Framework</h3>
+                    <p>Systematic positioning across five strategic cohorts—Mission-Driven, Patient-Centered, Community-Clinical, Clinical-Investigative, Research-Intensive. Evidence-based algorithm analyzing 270+ schools, not guesswork.</p>
                 </div>
                 <div class="feature">
                     <svg class="feature-icon" viewBox="0 0 24 24">
                         <rect x="3" y="3" width="18" height="18" rx="2"/>
                         <path d="M3 9h18M9 21V9"/>
                     </svg>
-                    <h3>Precision School Targeting</h3>
-                    <p>Stop wasting $1,000+ applying to wrong schools. Get precision targeting based on YOUR stats, state residency, and goals. 270+ US medical schools analyzed and matched to your profile.</p>
+                    <h3>Algorithm-Based School Matching</h3>
+                    <p>Precise targeting based on stats, mission alignment, and cohort fit. Generate 15-20 school lists in minutes, not hours. Mission + statistics + fit analysis in one systematic assessment.</p>
                 </div>
                 <div class="feature">
                     <svg class="feature-icon" viewBox="0 0 24 24">
@@ -716,8 +1077,8 @@
                         <line x1="8" y1="2" x2="8" y2="6"/>
                         <line x1="3" y1="10" x2="21" y2="10"/>
                     </svg>
-                    <h3>Timeline Intelligence</h3>
-                    <p>Gap year decisions, MCAT timing, application cycles—get clear strategic answers on when to apply and how to maximize your preparation time. Prevent costly rushed applications.</p>
+                    <h3>10-Minute Assessments</h3>
+                    <p>Transform 30-minute manual positioning into 10-minute data-driven analysis. That's 20 minutes per student saved. 10 weekly assessments = $17,000-$52,000 annual capacity expansion at typical billing rates.</p>
                 </div>
                 <div class="feature">
                     <svg class="feature-icon" viewBox="0 0 24 24">
@@ -725,15 +1086,15 @@
                         <line x1="12" y1="20" x2="12" y2="4"/>
                         <line x1="6" y1="20" x2="6" y2="14"/>
                     </svg>
-                    <h3>Competency Gap Analysis</h3>
-                    <p>Identify exactly what's holding you back and get specific action plans to close gaps. Transform "Am I competitive?" into concrete milestones with deadlines.</p>
+                    <h3>Competitiveness Analytics</h3>
+                    <p>Benchmark each student against cohort-specific acceptance data. Show exactly where they stand relative to matriculants at target schools. Data-driven positioning builds client confidence.</p>
                 </div>
                 <div class="feature">
                     <svg class="feature-icon" viewBox="0 0 24 24">
                         <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
                     </svg>
-                    <h3>Unlimited Consultations</h3>
-                    <p>No hourly limits. No per-question fees. Ask anything, anytime—from application strategy to interview prep to final school selection. Available when you need guidance most.</p>
+                    <h3>Unlimited Positioning Sessions</h3>
+                    <p>No per-assessment fees. No usage limits. Flat monthly rate for unlimited strategic positioning across all your students. Scale your practice without scaling your software costs.</p>
                 </div>
                 <div class="feature">
                     <svg class="feature-icon" viewBox="0 0 24 24">
@@ -742,8 +1103,8 @@
                         <line x1="16" y1="13" x2="8" y2="13"/>
                         <line x1="16" y1="17" x2="8" y2="17"/>
                     </svg>
-                    <h3>Actionable Deliverables</h3>
-                    <p>Get actual documents you can use—positioning analyses, school lists, roadmaps, consultation summaries. Not just chat history—structured artifacts for planning and decision-making.</p>
+                    <h3>Professional Deliverables</h3>
+                    <p>Generate client-ready documents—Cohort Positioning Analysis, Mission-Aligned School Lists, Strategic Roadmaps. Not chat transcripts—structured artifacts clients can reference and share.</p>
                 </div>
             </div>
         </div>
@@ -752,21 +1113,54 @@
     <!-- Consultation Embed -->
     <section class="consultation" id="consultation">
         <div class="consultation-content">
-            <h2>Try a Free Consultation Right Now</h2>
-            <p class="consultation-subhead">No signup required. Ask your first question and see how strategic positioning works.</p>
+            <h2>See Strategic Positioning in Action</h2>
+            <p class="consultation-subhead">Try a sample assessment and see how the Whitecoat Framework transforms manual positioning into systematic intelligence.</p>
             
             <div class="iframe-wrapper">
                 <div class="info-bar">
                     <div class="info-text">
                         <span class="status-indicator"></span>
-                        <span>Ready for your consultation</span>
+                        <span>Whitecoat Framework Active</span>
                     </div>
                     <div class="info-text">
-                        <span>Powered by the Whitecoat Cohort Framework</span>
+                        <span>270+ schools | 5 cohorts | Systematic positioning</span>
                     </div>
                 </div>
                 
                 <div class="iframe-container">
+                    <div class="email-gate-overlay" id="emailGate">
+                        <div class="email-gate-content">
+                            <svg class="email-gate-icon" viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            <h3>Try Strategic Positioning</h3>
+                            <p>See how the Whitecoat Framework transforms manual assessments into 10-minute data-driven positioning.</p>
+                            <form class="email-gate-form" id="emailGateForm" action="https://formspree.io/f/xvgwvwbj" method="POST">
+                                <input 
+                                    type="text" 
+                                    class="email-gate-input" 
+                                    placeholder="Your name" 
+                                    name="name"
+                                    required
+                                >
+                                <input 
+                                    type="email" 
+                                    class="email-gate-input" 
+                                    placeholder="Your email" 
+                                    name="email"
+                                    required
+                                >
+                                <input type="hidden" name="_subject" value="New SPM Advisor Demo Request">
+                                <input type="hidden" name="_next" value="#consultation">
+                                <button type="submit" class="email-gate-submit">
+                                    Access Positioning Demo
+                                </button>
+                                <p class="email-gate-privacy">We'll only use this to follow up about Smarter PreMed.</p>
+                            </form>
+                        </div>
+                    </div>
+                    
                     <iframe 
                         src="https://smarter-premed-production.up.railway.app/" 
                         title="Smarter PreMed Consultation"
@@ -779,18 +1173,18 @@
     <!-- Final CTA -->
     <section class="cta-section">
         <div class="cta-content">
-            <h2>Peace of mind for $49/month</h2>
-            <p>Stop second-guessing every decision. Get strategic guidance throughout your entire medical school journey—from freshman planning to final acceptance.</p>
+            <h2>Ready to Scale Your Practice?</h2>
+            <p>Experience systematic cohort positioning first-hand. Try the platform with your students' profiles and see how 10-minute assessments transform your capacity.</p>
             <a href="#consultation" class="cta-button">
-                <span>Start Your First Consultation</span>
-                <span style="font-size: 15px; font-weight: 500; color: #6b7280;">Try free • Subscribe only if it helps</span>
+                <span>Request Early Access</span>
+                <span style="font-size: 15px; font-weight: 500; color: #6b7280;">Connect with us to discuss your practice needs</span>
             </a>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>© 2025 Smarter PreMed. Strategic admissions guidance for ambitious students. | Powered by <a href="https://wayscribe.com">Wayscribe</a></p>
+        <p>© 2025 Smarter PreMed for Advisors | Built on <a href="https://wayscribe.com">Wayscribe's</a> consultation platform</p>
     </footer>
 
     <script>
@@ -803,6 +1197,40 @@
                     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
+        });
+        
+        // Tab functionality
+        document.querySelectorAll('.tab-button').forEach(button => {
+            button.addEventListener('click', function() {
+                const tabId = this.getAttribute('data-tab');
+                
+                // Remove active class from all tabs and buttons
+                document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+                
+                // Add active class to clicked button and corresponding content
+                this.classList.add('active');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+        
+        // Email gate handling
+        document.getElementById('emailGateForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(e.target);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            
+            // TODO: Send to your backend/CRM
+            // For now, just log and hide gate
+            console.log('Lead captured:', { name, email, source: 'SPM Advisor Landing Demo' });
+            
+            // Hide the gate
+            document.getElementById('emailGate').classList.add('hidden');
+            
+            // Optional: Track with analytics
+            // gtag('event', 'demo_access', { method: 'email_gate' });
         });
     </script>
 </body>
