@@ -13,7 +13,7 @@ When 50% of students don't have a successful application cycle, timing is often 
 
 Here's what this looks like in practice: Student A submits June 1st, is verified by early July, completes secondaries within a week of receiving them, and has their first interview invite by August. Student B submits July 15th, isn't verified until late August, receives secondaries while scrambling to finish them, and doesn't have a complete application until October. By the time Student B's application is reviewed, Student A might already have an acceptance in hand. Same stats, same experiences, vastly different outcomes—all because of timing.
 
-The cruel irony is that medical schools and application services perpetuate this confusion by prominently displaying these meaningless deadlines. Every year, thousands of qualified candidates handicap themselves before they even begin, not because they aren't good enough, but because they trusted the published timeline. Don't become another statistic in that 50% failure rate due to something entirely preventable.
+The cruel irony is that medical schools and application services perpetuate this confusion by prominently displaying these meaningless deadlines. Every year, thousands of qualified pre-med candidates handicap themselves before they even begin, not because they aren't good enough, but because they trusted the published timeline. Don't become another statistic in that 50% failure rate due to something entirely preventable.
 
 ## MSAR Data Interpretation: Let Them Tell You No
 
@@ -31,7 +31,7 @@ The most frustrating part? Many qualified students who would make excellent phys
 
 ## Personal Statement Philosophy: The Seed and Watering Framework
 
-Most students get the fundamental purpose of the personal statement completely wrong. They think it's about proving they'll be good doctors. They write about their leadership skills, their GPA, their research—essentially turning their resume into paragraph form. This is not just ineffective; it's actively hurting their chances.
+Most pre-med students get the fundamental purpose of the personal statement completely wrong. They think it's about proving they'll be good doctors. They write about their leadership skills, their GPA, their research—essentially turning their resume into paragraph form. This is not just ineffective; it's actively hurting their chances.
 
 The personal statement has one job: to show WHY you want to be a physician. Not that you'll be good at it. Not what kind of physician you'll be. But WHY medicine is the only path that will fulfill you. I call this the "seed and watering" framework, and understanding it will transform your entire approach.
 
@@ -55,7 +55,7 @@ Another critical distinction most students miss: there's a huge difference betwe
 
 ### The Research Trap
 
-Here's controversial advice: keep research out of your personal statement unless it directly connects to patient care. I see too many students use valuable personal statement real estate discussing their publications and lab techniques. Save it for your activities section. If research is part of your future vision, mention it briefly in your conclusion about what kind of physician-scientist you hope to become, but don't make it a "why medicine" reason.
+Here's controversial advice: keep research out of your personal statement unless it directly connects to patient care. I see too many pre-med students use valuable personal statement real estate discussing their publications and lab techniques. Save it for your activities section. If research is part of your future vision, mention it briefly in your conclusion about what kind of physician-scientist you hope to become, but don't make it a "why medicine" reason.
 
 ### Powerful Conclusions Without Summary
 
@@ -69,13 +69,13 @@ Your secondary essay turnaround time is data schools are actively tracking. When
 
 Here's the strategic approach: Before you even submit your primary, go to secondaryapps.com and start pre-writing every secondary for your school list. Yes, some prompts might change, but 80-90% stay the same year to year. When that secondary hits your inbox, you should be doing final edits, not starting from scratch.
 
-Every year I see strong candidates sabotage themselves here. They get overwhelmed by receiving 15 secondaries at once, they freeze, and by the time they submit them a month later, they've already sent a message that hurts their candidacy. The schools won't tell you this directly, but secondary turnaround time absolutely factors into their evaluation of your interest and organization skills.
+Every year I see strong pre-med candidates sabotage themselves here. They get overwhelmed by receiving 15 secondaries at once, they freeze, and by the time they submit them a month later, they've already sent a message that hurts their candidacy. The schools won't tell you this directly, but secondary turnaround time absolutely factors into their evaluation of your interest and organization skills.
 
 ### Understanding the Waitlist
 
 A waitlist is not a soft rejection—it's a specific message with three possible meanings. First: "We like you, but we don't have room for you right now." Second: "We like you, but we're not sure how much yet compared to others." Third: "We're not sure about you, but you're not an automatic no."
 
-Understanding which category you're in determines your strategy. The first category means stay engaged and update them with meaningful new experiences. The second means you need to reinforce your specific fit with their mission. The third means you need to address whatever concerns kept you from an acceptance. But here's what most students don't realize: some schools interview primarily for their waitlist late in the cycle. That March interview might feel pointless, but it's your foot in the door for next year if needed.
+Understanding which category you're in determines your strategy. The first category means stay engaged and update them with meaningful new pre-med experiences. The second means you need to reinforce your specific fit with their mission. The third means you need to address whatever concerns kept you from an acceptance. But here's what most students don't realize: some schools interview primarily for their waitlist late in the cycle. That March interview might feel pointless, but it's your foot in the door for next year if needed.
 
 ### The 3.9 GPA/519 MCAT Rejection Story
 
@@ -85,7 +85,7 @@ This is the harsh reality: medical schools don't want to risk accepting someone 
 
 ### The Texas School Trap
 
-Out-of-state applicants love applying to Texas schools because of the lower tuition. Here's what they don't realize: Texas public schools can only accept a maximum of 10% out-of-state students. If a school has 200 seats, that's 20 spots for the thousands of out-of-state applicants. Your 515 MCAT isn't competing against the Texas average—it's competing against every other out-of-state applicant with stellar stats chasing those same 20 seats.
+Out-of-state pre-med applicants love applying to Texas schools because of the lower tuition. Here's what they don't realize: Texas public schools can only accept a maximum of 10% out-of-state students. If a school has 200 seats, that's 20 spots for the thousands of out-of-state applicants. Your 515 MCAT isn't competing against the Texas average—it's competing against every other out-of-state applicant with stellar stats chasing those same 20 seats.
 
 ### The DO Bias Reality Check
 
@@ -139,19 +139,19 @@ Schools that claim unranked waitlists are being disingenuous. Every school has i
 
 ## The Parent Problem: Managing Well-Meaning Sabotage
 
-Parents can be your greatest supporters or your biggest liability in the application process. The problem isn't their intentions—it's their outdated information, emotional investment, and fundamental misunderstanding of modern medical school admissions.
+Parents can be your greatest supporters or your biggest liability in the pre-med application process. The problem isn't their intentions—it's their outdated information, emotional investment, and fundamental misunderstanding of modern medical school admissions.
 
 ### The Generational Knowledge Gap
 
 Your physician parent got into medical school in 1985 with a 3.5 GPA and "good test scores." They genuinely don't understand why you're stressed about your 3.7/510 combination. When they say, "Just apply to my alma mater; I'll make a call," they don't realize their connection might actually hurt you if you can't stand on your own merits.
 
-Your non-medical parents learned everything from Google and their friend whose kid got into medical school three years ago. They're comparing your journey to outdated information and different circumstances. When they ask, "Why don't you apply to Harvard? You never know!" they don't understand they're asking you to waste $200 and secondary essay time.
+Your non-medical parents learned everything from Google and their friend whose pre-med kid got into medical school three years ago. They're comparing your journey to outdated information and different circumstances. When they ask, "Why don't you apply to Harvard? You never know!" they don't understand they're asking you to waste $200 and secondary essay time.
 
 ### The Helicopter Parent Syndrome in Admissions
 
 Admissions committees can smell parental over-involvement immediately. The personal statement that sounds like a 50-year-old wrote it. The activity descriptions that emphasize what parents value, not what actually mattered to you. The school list that prioritizes prestige over fit.
 
-I've seen parents literally write their child's personal statement. The result? A 22-year-old whose essay sounds like a middle-aged professional reflecting on their career. Immediate rejection. Admissions committees want to hear YOUR voice, not your parents' interpretation of your experiences.
+I've seen parents literally write their pre-med child's personal statement. The result? A 22-year-old whose essay sounds like a middle-aged professional reflecting on their career. Immediate rejection. Admissions committees want to hear YOUR voice, not your parents' interpretation of your experiences.
 
 ### Setting Boundaries Without Burning Bridges
 
@@ -281,11 +281,11 @@ The students who successfully reapply are the ones who seek brutal honesty about
 
 The biggest predictor of reapplication success isn't improved stats or more activities—it's mindset transformation. Failed applicants who become successful reapplicants undergo a fundamental shift from "the system is unfair" to "I didn't present myself effectively."
 
-Here's the harsh reality I share with every reapplicant: the medical schools were right to reject you. Not because you wouldn't make a good doctor, but because your application didn't convince them you understood what you were signing up for or why you wanted it. Until you accept this, you'll keep making the same mistakes with slightly better stats.
+Here's the harsh reality I share with every reapplicant: the medical schools were right to reject you. Not because you wouldn't make a good doctor, but because your pre-med application didn't convince them you understood what you were signing up for or why you wanted it. Until you accept this, you'll keep making the same mistakes with slightly better stats.
 
 ### The Three Reapplicant Archetypes
 
-**The Polisher:** Thinks they just need to add more hours, retake the MCAT for two more points, or get one more publication. They're rearranging deck chairs on the Titanic. Without addressing fundamental application flaws, these additions are meaningless.
+**The Polisher:** Thinks they just need to add more pre-med hours, retake the MCAT for two more points, or get one more publication. They're rearranging deck chairs on the Titanic. Without addressing fundamental application flaws, these additions are meaningless.
 
 **The Victim:** Blames bad luck, unfair reviewers, or the "broken system." They resubmit essentially the same application with minor tweaks, expecting different results. Spoiler: they get the same rejection.
 
@@ -293,7 +293,7 @@ Here's the harsh reality I share with every reapplicant: the medical schools wer
 
 ### The Successful Reapplication Formula
 
-First, get your application reviewed by someone who will hurt your feelings. Not your premed advisor who's been encouraging you for four years. Not your parents who think you walk on water. Someone who will say, "Your personal statement reads like a LinkedIn profile" or "Your clinical experience is checking boxes, not understanding medicine."
+First, get your application reviewed by someone who will hurt your feelings. Not your pre-med advisor who's been encouraging you for four years. Not your parents who think you walk on water. Someone who will say, "Your personal statement reads like a LinkedIn profile" or "Your clinical experience is checking boxes, not understanding medicine."
 
 Second, identify your application's fatal flaw. Every rejected application has one. Common fatal flaws:
 - No clear "why medicine" narrative
@@ -336,7 +336,7 @@ When schools say they'll "be in touch," here's the timeline reality:
 
 ## The Financial Reality No One Discusses
 
-Budget $5,000 minimum for applications alone—that's primaries, secondaries, and sending scores. Add another $3,000-5,000 for interview travel. Yes, some schools offer virtual interviews now, but many don't. That last-minute flight to a February interview could cost $800.
+Budget $5,000 minimum for pre-med applications alone—that's primaries, secondaries, and sending scores. Add another $3,000-5,000 for interview travel. Yes, some schools offer virtual interviews now, but many don't. That last-minute flight to a February interview could cost $800.
 
 Fee Assistance Program (FAP) helps, but has strict income limits. Even with FAP, you're still paying for test prep, interview clothes, and travel. Start saving the moment you decide on medical school. Every month you delay preparing financially is added stress during application season.
 
@@ -346,7 +346,7 @@ The hidden cost? Lost income. If you're working reduced hours to complete applic
 
 The students who succeed don't just check boxes from the AAMC guide. They don't just match their stats to schools. They understand the hidden curriculum—the strategic layer that turns qualified applicants into admitted students.
 
-Remember: 50% of applicants fail not because they aren't good enough, but because they don't understand the game they're playing. You now have the complete playbook:
+Remember: 50% of pre-med applicants fail not because they aren't good enough, but because they don't understand the game they're playing. You now have the complete playbook:
 - Official requirements (AAMC)
 - Competitive positioning (Whitecoat)  
 - Strategic execution (These Insights)
