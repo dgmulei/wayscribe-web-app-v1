@@ -1,8 +1,8 @@
 {
-  "domain": "medicare-medicaid-ma",
-  "display_name": "Medicare/Medicaid MA Navigator powered by Wayscribe",
+  "domain": "medicare-clear-ma",
+  "display_name": "Medicare Clear | MA",
   "description": "Understand your Medicare and MassHealth options before counselor appointments. Get clear explanations of what you qualify for, why it matters, and what decisions you'll need to make.",
   "ui_text": {
-    "input_placeholder": "What's confusing you about Medicare/MassHealth? Share your situation or questions..."
+    "input_placeholder": "Describe your situation and I'll explain what applies to you"
   }
 }

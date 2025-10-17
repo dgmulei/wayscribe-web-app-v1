@@ -1,5 +1,5 @@
 {
-  "domain": "medicare-medicaid-ma",
+  "domain": "medicare-clear-ma",
   "orchestration_behavior": {
     "information_gathering_intensity": 6,
     "guidance_directiveness": 5,

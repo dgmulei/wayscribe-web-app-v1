@@ -1,0 +1,11 @@
+{
+  "domain": "medicare-clear-ma",
+  "welcome_message": "I'll help you understand your Medicare and MassHealth situation before your appointment. You'll learn what programs you qualify for, why they apply to you, and what decisions you'll need to make.",
+  "expert_intro": "I use Massachusetts SHINE expertise to explain your specific situation in plain language—so you arrive at your appointment feeling prepared.",
+  "immediate_options": [
+    "🎂 'I'm turning 65 soon' - Understand what you need to do and when",
+    "💰 'I can't afford Medicare costs' - Learn which assistance programs you qualify for",
+    "📄 'I got a confusing letter' - Find out what it means for you"
+  ],
+  "signature_element": "Arrive informed. Leave with a plan."
+}

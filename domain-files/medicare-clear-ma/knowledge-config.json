@@ -1,8 +1,8 @@
 {
-  "domain": "medicare-medicaid-ma",
+  "domain": "medicare-clear-ma",
   "knowledge_files": [
     {
-      "file": "fed-medicare-and-you-official.md",
+      "file": "fed-medicare-and-you-official_pruned.md",
       "name": "Federal Medicare & You Guide",
       "hint": "Official CMS guide covering Medicare Parts A, B, C, and D fundamentals",
       "tag": "federal Medicare guide"
@@ -20,28 +20,10 @@
       "tag": "beginner enrollment guide"
     },
     {
-      "file": "ma-shine-MA-drug-plans.md",
-      "name": "MA Drug Plans Guide",
-      "hint": "Massachusetts-specific Part D prescription drug coverage options and formularies",
-      "tag": "prescription coverage options"
-    },
-    {
       "file": "ma-shine-enrolling-in-medicare.md",
       "name": "SHINE Enrollment Guide",
       "hint": "Step-by-step enrollment process with critical deadlines and penalty avoidance",
       "tag": "enrollment process guide"
-    },
-    {
-      "file": "ma-shine-guide-to-medicare-preventive-services.md",
-      "name": "Medicare Preventive Services Guide",
-      "hint": "Covered preventive care services, screenings, and wellness visits",
-      "tag": "preventive services coverage"
-    },
-    {
-      "file": "ACA-1-0325.md",
-      "name": "MassHealth Member Booklet 2025",
-      "hint": "Complete MassHealth coverage types, eligibility rules, and application processes",
-      "tag": "MassHealth coverage guide"
     },
     {
       "file": "OC-FactsFeatures.md",

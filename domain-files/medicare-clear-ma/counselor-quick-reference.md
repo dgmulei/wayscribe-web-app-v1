@@ -17,7 +17,4 @@
 ## Questions I Want to Ask
 {{my_specific_questions}}
 
-## Things I'm Worried About
-{{my_concerns_and_deadlines}}
-
 ---END ASSET---

@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicare Clear | MA - AEP Capacity Partner for Area Agencies on Aging</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.7;
+        }
+        
+        /* Header */
+        .header {
+            background: white;
+            padding: 20px 0;
+            border-bottom: 1px solid #e5e7eb;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo {
+            font-size: 26px;
+            font-weight: 700;
+            color: #047857;
+            letter-spacing: -0.5px;
+        }
+        
+        .logo-separator {
+            color: #9ca3af;
+            margin: 0 8px;
+        }
+        
+        .header-cta {
+            background: #047857;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: background 0.2s;
+        }
+        
+        .header-cta:hover {
+            background: #065f46;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #047857 0%, #059669 100%);
+            padding: 80px 20px;
+            color: white;
+            text-align: center;
+        }
+        
+        .hero-content {
+            max-width: 950px;
+            margin: 0 auto;
+        }
+        
+        .hero-eyebrow {
+            font-size: 17px;
+            font-weight: 600;
+            color: #a7f3d0;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+        }
+        
+        .hero h1 {
+            font-size: 54px;
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 28px;
+            letter-spacing: -1px;
+        }
+        
+        .hero-subhead {
+            font-size: 26px;
+            line-height: 1.5;
+            margin-bottom: 40px;
+            color: #d1fae5;
+            font-weight: 400;
+        }
+        
+        .hero-cta {
+            display: inline-flex;
+            flex-direction: column;
+            gap: 12px;
+            background: white;
+            color: #047857;
+            padding: 26px 52px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 21px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+        }
+        
+        .hero-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+        }
+        
+        .hero-cta-main {
+            font-size: 21px;
+        }
+        
+        .hero-cta-sub {
+            font-size: 16px;
+            font-weight: 500;
+            color: #6b7280;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: #f0fdf4;
+            padding: 50px 20px;
+            border-bottom: 1px solid #d1fae5;
+        }
+        
+        .stats-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 40px;
+            text-align: center;
+        }
+        
+        .stat {
+            padding: 0 20px;
+        }
+        
+        .stat-number {
+            font-size: 40px;
+            font-weight: 800;
+            color: #047857;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 15px;
+            color: #065f46;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+        
+        .stat-description {
+            font-size: 13px;
+            color: #6b7280;
+            margin-top: 6px;
+            line-height: 1.3;
+        }
+
+        /* Problem Section */
+        .problem {
+            padding: 90px 20px;
+            background: white;
+        }
+        
+        .problem-content {
+            max-width: 950px;
+            margin: 0 auto;
+        }
+        
+        .section-label {
+            color: #047857;
+            font-weight: 700;
+            font-size: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 18px;
+        }
+        
+        .problem h2 {
+            font-size: 44px;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-bottom: 36px;
+            color: #1a1a1a;
+        }
+        
+        .problem-text {
+            font-size: 19px;
+            line-height: 1.8;
+            color: #4b5563;
+            margin-bottom: 36px;
+        }
+        
+        .problem-list {
+            background: #fef2f2;
+            border-left: 4px solid #dc2626;
+            padding: 36px;
+            border-radius: 8px;
+            margin: 36px 0;
+        }
+        
+        .problem-list li {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #374151;
+            margin-bottom: 20px;
+            list-style-position: inside;
+        }
+        
+        .problem-list li:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Solution Section */
+        .solution {
+            padding: 90px 20px;
+            background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+        }
+        
+        .solution-content {
+            max-width: 950px;
+            margin: 0 auto;
+        }
+        
+        .solution h2 {
+            font-size: 44px;
+            font-weight: 800;
+            line-height: 1.25;
+            margin-bottom: 36px;
+            color: #1a1a1a;
+        }
+        
+        .solution-intro {
+            font-size: 19px;
+            line-height: 1.8;
+            color: #065f46;
+            margin-bottom: 48px;
+            font-weight: 500;
+        }
+        
+        .value-props {
+            display: grid;
+            gap: 28px;
+            margin-top: 48px;
+        }
+        
+        .value-prop {
+            background: white;
+            padding: 36px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border-left: 4px solid;
+        }
+        
+        .value-prop:nth-child(1) { border-left-color: #059669; }
+        .value-prop:nth-child(2) { border-left-color: #0891b2; }
+        .value-prop:nth-child(3) { border-left-color: #047857; }
+        .value-prop:nth-child(4) { border-left-color: #0d9488; }
+        .value-prop:nth-child(5) { border-left-color: #10b981; }
+        
+        .value-prop h3 {
+            font-size: 25px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 14px;
+        }
+        
+        .value-prop p {
+            font-size: 18px;
+            color: #4b5563;
+            line-height: 1.75;
+        }
+
+        /* Sample Deliverables Section */
+        .deliverables {
+            padding: 90px 20px;
+            background: white;
+        }
+        
+        .deliverables-content {
+            max-width: 1050px;
+            margin: 0 auto;
+        }
+        
+        .deliverables h2 {
+            font-size: 44px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 28px;
+            color: #1a1a1a;
+        }
+        
+        .deliverables-intro {
+            text-align: center;
+            font-size: 19px;
+            color: #6b7280;
+            margin-bottom: 52px;
+            max-width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7;
+        }
+        
+        .sample-card {
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 44px;
+            margin-bottom: 36px;
+        }
+        
+        .sample-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 28px;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+        
+        .sample-title {
+            font-size: 26px;
+            font-weight: 700;
+            color: #047857;
+        }
+        
+        .sample-badge {
+            background: #d1fae5;
+            color: #047857;
+            padding: 7px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .sample-content {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 36px;
+            font-family: 'Georgia', serif;
+            font-size: 16px;
+            line-height: 1.9;
+            color: #374151;
+            max-height: 450px;
+            overflow-y: auto;
+        }
+        
+        .sample-content h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin: 24px 0 12px 0;
+            color: #1a1a1a;
+        }
+        
+        .sample-content h3:first-child {
+            margin-top: 0;
+        }
+        
+        .sample-content p {
+            margin-bottom: 16px;
+        }
+        
+        .sample-content ul {
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+        
+        .sample-content li {
+            margin-bottom: 10px;
+        }
+        
+        /* Tab Navigation */
+        .tab-nav {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 28px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        
+        .tab-button {
+            background: none;
+            border: none;
+            padding: 14px 28px;
+            font-size: 17px;
+            font-weight: 600;
+            color: #6b7280;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+            position: relative;
+            bottom: -2px;
+        }
+        
+        .tab-button:hover {
+            color: #047857;
+        }
+        
+        .tab-button.active {
+            color: #047857;
+            border-bottom-color: #047857;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Email Gate Modal */
+        .email-gate-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.98);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            backdrop-filter: blur(4px);
+        }
+        
+        .email-gate-overlay.hidden {
+            display: none;
+        }
+        
+        .email-gate-content {
+            max-width: 520px;
+            padding: 52px 44px;
+            text-align: center;
+        }
+        
+        .email-gate-icon {
+            width: 68px;
+            height: 68px;
+            stroke: #047857;
+            stroke-width: 1.5;
+            fill: none;
+            margin: 0 auto 28px;
+        }
+        
+        .email-gate-content h3 {
+            font-size: 30px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 14px;
+            line-height: 1.3;
+        }
+        
+        .email-gate-content p {
+            font-size: 17px;
+            color: #6b7280;
+            margin-bottom: 36px;
+            line-height: 1.65;
+        }
+        
+        .email-gate-form {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+        
+        .email-gate-input {
+            padding: 16px 20px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.2s;
+            font-family: inherit;
+        }
+        
+        .email-gate-input:focus {
+            outline: none;
+            border-color: #047857;
+        }
+        
+        .email-gate-input::placeholder {
+            color: #9ca3af;
+        }
+        
+        .email-gate-submit {
+            background: #047857;
+            color: white;
+            padding: 18px 36px;
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-family: inherit;
+        }
+        
+        .email-gate-submit:hover {
+            background: #065f46;
+        }
+        
+        .email-gate-privacy {
+            font-size: 14px;
+            color: #9ca3af;
+            margin-top: 18px;
+        }
+
+        /* Partnership Modal */
+        .partnership-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        
+        .partnership-modal.active {
+            display: flex;
+        }
+        
+        .partnership-modal-content {
+            background: white;
+            border-radius: 12px;
+            padding: 44px;
+            max-width: 600px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+        }
+        
+        .partnership-modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 28px;
+            color: #6b7280;
+            cursor: pointer;
+            line-height: 1;
+            padding: 0;
+            width: 32px;
+            height: 32px;
+        }
+        
+        .partnership-modal-close:hover {
+            color: #1a1a1a;
+        }
+        
+        .partnership-modal h3 {
+            font-size: 30px;
+            font-weight: 800;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+            line-height: 1.3;
+        }
+        
+        .partnership-modal-intro {
+            font-size: 17px;
+            color: #6b7280;
+            margin-bottom: 32px;
+            line-height: 1.65;
+        }
+        
+        .partnership-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .form-label {
+            font-size: 15px;
+            font-weight: 600;
+            color: #374151;
+        }
+        
+        .form-input,
+        .form-textarea {
+            padding: 14px 18px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            font-size: 15px;
+            transition: border-color 0.2s;
+            font-family: inherit;
+        }
+        
+        .form-input:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: #047857;
+        }
+        
+        .form-textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        
+        .radio-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .radio-option {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .radio-option input[type="radio"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+        
+        .radio-option label {
+            font-size: 15px;
+            color: #374151;
+            cursor: pointer;
+        }
+        
+        .form-submit {
+            background: #047857;
+            color: white;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+            font-family: inherit;
+            margin-top: 8px;
+        }
+        
+        .form-submit:hover {
+            background: #065f46;
+        }
+        
+        .form-privacy {
+            font-size: 13px;
+            color: #9ca3af;
+            line-height: 1.5;
+        }
+
+        /* Comparison Table */
+        .comparison {
+            padding: 90px 20px;
+            background: #f9fafb;
+        }
+        
+        .comparison-content {
+            max-width: 1150px;
+            margin: 0 auto;
+        }
+        
+        .comparison h2 {
+            font-size: 44px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 52px;
+            color: #1a1a1a;
+        }
+        
+        .comparison-table {
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        
+        th {
+            background: #047857;
+            color: white;
+            padding: 22px;
+            text-align: left;
+            font-weight: 700;
+            font-size: 17px;
+        }
+        
+        td {
+            padding: 22px;
+            border-bottom: 1px solid #e5e7eb;
+            font-size: 16px;
+        }
+        
+        tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .highlight-col {
+            background: #ecfdf5;
+            font-weight: 600;
+            color: #047857;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 90px 20px;
+            background: linear-gradient(135deg, #047857 0%, #059669 100%);
+            color: white;
+            text-align: center;
+        }
+        
+        .cta-content {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        
+        .cta-section h2 {
+            font-size: 48px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 28px;
+        }
+        
+        .cta-section p {
+            font-size: 22px;
+            margin-bottom: 44px;
+            color: #d1fae5;
+            line-height: 1.6;
+        }
+        
+        .cta-button {
+            display: inline-flex;
+            flex-direction: column;
+            gap: 14px;
+            background: white;
+            color: #047857;
+            padding: 26px 52px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 21px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 25px 60px rgba(0,0,0,0.35);
+        }
+
+        /* Consultation Embed */
+        .consultation {
+            padding: 70px 20px;
+            background: #f9fafb;
+        }
+        
+        .consultation-content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .consultation h2 {
+            font-size: 40px;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 18px;
+            color: #1a1a1a;
+        }
+        
+        .consultation-subhead {
+            text-align: center;
+            font-size: 19px;
+            color: #6b7280;
+            margin-bottom: 44px;
+            line-height: 1.65;
+        }
+        
+        .iframe-wrapper {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        
+        .info-bar {
+            background: #f9fafb;
+            padding: 18px 32px;
+            border-bottom: 1px solid #e5e7eb;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+        
+        .info-text {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #475569;
+            font-size: 15px;
+            font-weight: 500;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 9px;
+            height: 9px;
+            background: #10b981;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 750px;
+            background: #fafafa;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1a1a1a;
+            color: #9ca3af;
+            padding: 44px 20px;
+            text-align: center;
+            font-size: 15px;
+        }
+        
+        .footer a {
+            color: #6ee7b7;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 38px;
+            }
+            
+            .hero-subhead {
+                font-size: 20px;
+            }
+            
+            .problem h2, .solution h2, .comparison h2, .deliverables h2 {
+                font-size: 34px;
+            }
+            
+            .stats-content {
+                grid-template-columns: 1fr;
+                gap: 36px;
+            }
+            
+            .header-cta {
+                display: none;
+            }
+            
+            .tab-nav {
+                flex-direction: column;
+            }
+            
+            .tab-button {
+                border-bottom: none;
+                border-left: 3px solid transparent;
+                text-align: left;
+            }
+            
+            .tab-button.active {
+                border-left-color: #047857;
+                border-bottom-color: transparent;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">Medicare Clear <span class="logo-separator">|</span> MA</div>
+            <a href="#" class="header-cta" id="headerCTA">Request Pilot Info</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+
+            <h1>Serve More Beneficiaries During AEP<br>Without Recruiting New Volunteers</h1>
+            <p class="hero-subhead">Pre-appointment education helps counselors focus entire sessions on personalized decision support during the critical 53-day October 15 to December 7 surge.</p>
+            <a href="#consultation" class="hero-cta">
+                <span class="hero-cta-main">See How It Works</span>
+                <span class="hero-cta-sub">Live platform demo</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+        <div class="stats-content">
+            <div class="stat">
+                <div class="stat-number">53 Days</div>
+                <div class="stat-label">October 15 – December 7</div>
+                <p class="stat-description">All 1.8M MA beneficiaries decide simultaneously</p>
+            </div>
+            <div class="stat">
+                <div class="stat-number">600</div>
+                <div class="stat-label">Volunteer SHINE Counselors</div>
+                <p class="stat-description">Can't recruit fast enough for AEP surge</p>
+            </div>
+            <div class="stat">
+            <div class="stat-number">Multi-Day</div>
+            <div class="stat-label">Training Commitment</div>
+            <p class="stat-description">Extensive annual recertification limits recruitment during AEP surge</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem -->
+    <section class="problem">
+        <div class="problem-content">
+            <div class="section-label">The October 15 Crisis</div>
+            <h2>Every October, organizations serving Medicare beneficiaries face the same capacity crisis</h2>
+            <p class="problem-text">All 1.8 million Massachusetts Medicare beneficiaries can review coverage during the October 15 to December 7 window. Counselors face predictable surge demand they cannot meet—not because they lack expertise, but because <strong>the volunteer model cannot scale to match concentrated AEP timing.</strong></p>
+            
+            <p class="problem-text"><strong>The structural constraint:</strong> Recruiting volunteers requires extensive multi-day training sessions and annual recertification. Meanwhile, thousands of beneficiaries are making complex coverage decisions without access to unbiased guidance. <strong>And new federal requirements starting in 2027 will transform this annual crisis into year-round compliance requirements.</strong></p>
+            
+            <div class="problem-list">
+                <li><strong>Wrong Medicare Advantage plan</strong> = $3,000-7,000 overpaid annually</li>
+                <li><strong>Missing Medicare Savings Program eligibility</strong> = $5,000+ in preventable costs</li>
+                <li><strong>Inadequate prescription coverage</strong> = thousands in medication costs</li>
+                <li><strong>Working adults locked out</strong> = weekday-only appointments when they need help most</li>
+            </div>
+            
+            <p class="problem-text"><strong>The time constraint:</strong> Counselors spend valuable session time building foundational understanding of each person's situation and teaching beneficiaries what they qualify for and why—covering Medicare Parts A/B/C/D, Medicare Advantage vs Original Medicare, Medigap, Part D drug plans, Medicare Savings Programs, Extra Help eligibility, and MassHealth coordination—<em>before</em> addressing the decisions beneficiaries actually need to make.</p>
+        </div>
+    </section>
+
+    <!-- Solution -->
+    <section class="solution">
+        <div class="solution-content">
+            <div class="section-label">The Capacity Partner Approach</div>
+            <h2>How Pre-Appointment Education Multiplies Your Existing Capacity</h2>
+            <p class="solution-intro">Beneficiaries complete comprehensive Medicare/MassHealth education before appointments. Counselors assign it when scheduling. Sessions focus on decisions, not explaining Medicare 101.</p>
+            <div class="value-props">
+                <div class="value-prop">
+                    <h3>Multiply Your Existing Workforce</h3>
+                    <p><strong>Hypothesis: Freeing valuable session time for decision support could significantly increase capacity</strong> with existing counselor workforce. If validated statewide, Massachusetts AAAs could serve thousands more beneficiaries during AEP without recruiting volunteers. Sessions shift from education delivery to what counselors do best.</p>
+                </div>
+                <div class="value-prop">
+                    <h3>Beneficiaries Arrive Prepared</h3>
+                    <p>Comprehensive Massachusetts-specific education on Medicare Parts A/B/C/D, Medigap, Medicare Advantage, Medicare Savings Programs (QMB, SLMB, QI), and MassHealth dual-eligible coordination completed before the appointment. Counselors review preparation documents showing what beneficiaries learned and understood.</p>
+                </div>
+                <div class="value-prop">
+                    <h3>24/7 Access for Working Adults</h3>
+                    <p>Working beneficiaries who can't attend weekday appointments access education evenings and weekends. Self-service reduces unnecessary appointment requests for simple questions. More appointment slots available for complex cases requiring counselor expertise during AEP.</p>
+                </div>
+                <div class="value-prop">
+                    <h3>Responsible Stewardship</h3>
+                    <p>At <strong>a fraction of volunteer recruitment costs</strong>, this represents prudent stewardship compared to training new counselors (substantial investment per volunteer in training time and materials). Pilot validation with measurement ensures impact before organizational commitment. Massachusetts-first approach respects SHINE methodology.</p>
+                </div>
+                <div class="value-prop">
+                    <h3>Language Accessibility</h3>
+                    <p>Beneficiaries learn in their native language—Spanish, Portuguese, Haitian Creole, Chinese, Vietnamese, and 100+ others. Technical Medicare terms explained clearly, documentation generated in their language, family members can help review together. No language barriers to understanding eligibility and options.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sample Deliverables -->
+    <section class="deliverables">
+        <div class="deliverables-content">
+            <h2>What Beneficiaries Bring to Appointments</h2>
+            <p class="deliverables-intro">Beneficiaries arrive with personalized documents showing what they've learned—not blank slates requiring full education delivery. Counselors see immediately what ground has been covered.</p>
+            
+            <div class="tab-nav">
+                <button class="tab-button active" data-tab="situation">Medicare Situation Explained</button>
+                <button class="tab-button" data-tab="summary">My Medicare/MassHealth Summary</button>
+            </div>
+            
+            <div id="situation" class="tab-content active">
+                <div class="sample-card">
+                    <div class="sample-header">
+                        <h3 class="sample-title">Your Medicare Situation Explained</h3>
+                        <span class="sample-badge">Sample Document</span>
+                    </div>
+                    <div class="sample-content">
+<h3>What You Qualify For</h3>
+
+<p><strong>QMB (Qualified Medicare Beneficiary Program)</strong></p>
+<p>You qualify because your income is $1,800/month and the limit is $2,935/month in Massachusetts. This means you're earning below 100% of the Federal Poverty Level.</p>
+
+<p><strong>What QMB Does For You:</strong></p>
+<ul>
+<li>Pays your Medicare Part B premium ($174.70/month)</li>
+<li>Covers Medicare deductibles and copayments</li>
+<li>No cost to you for Medicare-covered services</li>
+</ul>
+
+<p><strong>Extra Help (Low-Income Subsidy)</strong></p>
+<p>You automatically qualify for Extra Help with prescription drug costs because QMB eligibility means you're under 135% FPL.</p>
+
+<p><strong>What Extra Help Does For You:</strong></p>
+<ul>
+<li>Reduces prescription costs to $4.50 per medication</li>
+<li>No deductible for Part D drug coverage</li>
+<li>No coverage gap ("donut hole")</li>
+</ul>
+
+<h3>Why These Programs Matter</h3>
+
+<p>Right now, Social Security takes $174.70 from your monthly check for Part B premium. With QMB, that stops. Your diabetes medication costs $300/month. With Extra Help, it becomes $4.50/month.</p>
+
+<p><strong>Total monthly savings: $470.20</strong></p>
+
+<h3>What Happens Next</h3>
+
+<p>You need to apply for QMB through MassHealth. Once approved, QMB automatically triggers Extra Help for your prescriptions. Your SHINE counselor can help you with the application and explain any questions about coverage.</p>
+
+<p><strong>Important:</strong> The house you sold 2 years ago doesn't affect these programs. The "5-year look back" only applies to nursing home Medicaid, not Medicare Savings Programs.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="summary" class="tab-content">
+                <div class="sample-card">
+                    <div class="sample-header">
+                        <h3 class="sample-title">My Medicare/MassHealth Summary</h3>
+                        <span class="sample-badge">Sample Document</span>
+                    </div>
+                    <div class="sample-content">
+<p><em>I've taken time to understand my situation.<br>
+This summary shows what I've learned and what decisions I'm ready to make.</em></p>
+
+<h3>My Situation</h3>
+
+<p><strong>Age:</strong> 67 years old<br>
+<strong>Coverage:</strong> Medicare Parts A & B since turning 65<br>
+<strong>Income:</strong> $1,800/month from Social Security (widow's benefits)<br>
+<strong>Main Concern:</strong> Can't afford my diabetes medication ($300/month) and Medicare Part B premium is taking $174.70 from my monthly check</p>
+
+<h3>Programs I Qualify For</h3>
+
+<p><strong>QMB (Qualified Medicare Beneficiary)</strong></p>
+<ul>
+<li>Pays my Part B premium ($174.70/month saved)</li>
+<li>Covers Medicare deductibles and copayments</li>
+<li>Why I qualify: Income $1,800/month is below the $2,935/month limit for Massachusetts</li>
+</ul>
+
+<p><strong>Extra Help (Low-Income Subsidy)</strong></p>
+<ul>
+<li>Reduces my prescriptions to $4.50 per medication</li>
+<li>No Part D deductible or coverage gap</li>
+<li>Why I qualify: QMB automatically makes me eligible</li>
+<li>Saves $295.50/month on my diabetes medicine</li>
+</ul>
+
+<p><strong>Total monthly savings: $470.20</strong></p>
+
+<h3>Key Information About Me</h3>
+
+<p><strong>Important fact:</strong> My late husband's mother passed away 2 years ago. We sold her house. I was worried this would affect my eligibility, but I learned the "5-year look back" only applies to nursing home Medicaid, not Medicare Savings Programs.</p>
+
+<p><strong>Current medications:</strong></p>
+<ul>
+<li>Metformin for diabetes</li>
+<li>Lisinopril for blood pressure</li>
+<li>Atorvastatin for cholesterol</li>
+</ul>
+
+<p><strong>Language:</strong> Spanish is my first language. I understand English but sometimes struggle with complicated insurance terms.</p>
+
+<h3>What I Need Help Deciding</h3>
+
+<p><strong>1. Applying for QMB</strong><br>
+I understand I need to apply through MassHealth. I need help with:</p>
+<ul>
+<li>What documents to bring</li>
+<li>How to fill out the application</li>
+<li>How long it takes to get approved</li>
+</ul>
+
+<p><strong>2. Choosing a Part D plan with Extra Help</strong><br>
+I know Extra Help will reduce my costs, but I still need to pick a drug plan. I need help understanding:</p>
+<ul>
+<li>Which plans cover all three of my medications</li>
+<li>Which pharmacies I can use</li>
+<li>What my actual out-of-pocket costs will be</li>
+</ul>
+
+<h3>Questions I Want to Ask</h3>
+
+<ul>
+<li>When will the savings start after I'm approved for QMB?</li>
+<li>Will Social Security stop taking the $174.70 automatically, or do I need to tell them?</li>
+<li>Do I need to reapply for QMB every year?</li>
+<li>Can I switch Part D plans during Annual Enrollment if I find a better one?</li>
+<li>Is there help available in Spanish for filling out the MassHealth application?</li>
+</ul>
+
+<h3>Things I'm Worried About</h3>
+
+<ul>
+<li><strong>Deadline concern:</strong> It's October 20th. I'm worried about missing the Annual Enrollment Period deadline (December 7th)</li>
+<li><strong>Application confusion:</strong> I'm afraid I'll make a mistake on the MassHealth application and get denied</li>
+<li><strong>Pharmacy access:</strong> I've been going to CVS for 15 years—I don't want to have to switch</li>
+<li><strong>Coverage gap:</strong> What happens to my medications while I'm waiting for approval?</li>
+</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="comparison">
+        <div class="comparison-content">
+            <h2>Comparing Capacity Approaches</h2>
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Capacity Approach</th>
+                            <th>Volunteer Capacity</th>
+                            <th>AEP Scalability</th>
+                            <th>Working Adult Access</th>
+                            <th>Investment</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Recruit More Volunteers</strong></td>
+                            <td>Requires extensive training commitment</td>
+                            <td>Limited by recruitment timeline</td>
+                            <td>No change</td>
+                            <td>Substantial investment per volunteer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Extend Counselor Hours</strong></td>
+                            <td>Volunteer burnout risk</td>
+                            <td>Marginal improvement</td>
+                            <td>Limited evening/weekend</td>
+                            <td>Retention concerns</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Medicare Clear | MA</strong></td>
+                            <td class="highlight-col">Same workforce, increased effectiveness</td>
+                            <td class="highlight-col">Scales without volunteer growth</td>
+                            <td class="highlight-col">24/7 self-service</td>
+                            <td class="highlight-col">Minimal (usage-based)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation Embed -->
+    <section class="consultation" id="consultation">
+        <div class="consultation-content">
+            <h2>Experience Pre-Appointment Education</h2>
+            <p class="consultation-subhead">See how beneficiaries learn about Medicare Savings Programs, MassHealth coordination, and coverage decisions before counselor appointments. Try it with a sample scenario.</p>
+            
+            <div class="iframe-wrapper">
+                <div class="info-bar">
+                    <div class="info-text">
+                        <span class="status-indicator"></span>
+                        <span>Massachusetts SHINE Methodology</span>
+                    </div>
+                    <div class="info-text">
+                        <span>QMB • SLMB • QI • MassHealth • Dual Eligibles</span>
+                    </div>
+                </div>
+                
+                <div class="iframe-container">
+                    <div class="email-gate-overlay" id="emailGate">
+                        <div class="email-gate-content">
+                            <svg class="email-gate-icon" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                            <h3>See the Platform in Action</h3>
+                            <p>Experience how beneficiaries learn about Medicare/MassHealth options before counselor appointments.</p>
+                            <form class="email-gate-form" id="emailGateForm" action="https://formspree.io/f/mldparqw" method="POST">
+                                <input 
+                                    type="text" 
+                                    class="email-gate-input" 
+                                    placeholder="Your name" 
+                                    name="name"
+                                    required
+                                >
+                                <input 
+                                    type="email" 
+                                    class="email-gate-input" 
+                                    placeholder="Your work email" 
+                                    name="email"
+                                    required
+                                >
+                                <input 
+                                    type="text" 
+                                    class="email-gate-input" 
+                                    placeholder="Organization (AAA, SHINE, COA)" 
+                                    name="organization"
+                                    required
+                                >
+                                <input type="hidden" name="_subject" value="New Medicare Clear MA Demo Request">
+                                <input type="hidden" name="_next" value="#consultation">
+                                <button type="submit" class="email-gate-submit">
+                                    Access Platform Demo
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <iframe 
+                        src="https://medicare-medicaid-ma-production.up.railway.app/" 
+                        title="Medicare Clear MA Consultation"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>What happens when 53 days becomes 365?</h2>
+            <p>New federal requirements will transform the annual surge into monthly compliance requirements. Build capacity now.</p>
+            <a href="#" class="cta-button" id="openPartnershipModal">
+                <span>Request Pilot Partnership Information</span>
+                <span style="font-size: 16px; font-weight: 500; color: #6b7280;">Before October becomes every month</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Medicare Clear | MA | Built on <a href="https://wayscribe.com">Wayscribe's</a> consultation platform</p>
+    </footer>
+
+    <!-- Partnership Modal -->
+    <div class="partnership-modal" id="partnershipModal">
+        <div class="partnership-modal-content">
+            <button class="partnership-modal-close" id="closeModal">&times;</button>
+            <h3>Request Pilot Partnership Info</h3>
+            
+            <form class="partnership-form" id="partnershipForm" action="https://formspree.io/f/mzzjypnk" method="POST">
+                <div class="form-group">
+                    <label class="form-label" for="partner-name">Name *</label>
+                    <input type="text" id="partner-name" name="name" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label" for="partner-email">Email *</label>
+                    <input type="email" id="partner-email" name="email" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label" for="partner-org">Organization Name *</label>
+                    <input type="text" id="partner-org" name="organization" class="form-input" required>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Organization Type</label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="type-aaa" name="org_type" value="Area Agency on Aging">
+                            <label for="type-aaa">Area Agency on Aging</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="type-shine" name="org_type" value="SHINE Program">
+                            <label for="type-shine">SHINE Program</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="type-coa" name="org_type" value="Council on Aging">
+                            <label for="type-coa">Council on Aging</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="type-legal" name="org_type" value="Legal Aid/Legal Services">
+                            <label for="type-legal">Legal Aid/Legal Services</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="type-chc" name="org_type" value="Community Health Center">
+                            <label for="type-chc">Community Health Center</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="type-hospital" name="org_type" value="Hospital/Health System">
+                            <label for="type-hospital">Hospital/Health System</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="type-other" name="org_type" value="Other">
+                            <label for="type-other">Other</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Interest Timeline</label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="timeline-2025" name="timeline" value="AEP 2025 (Immediate)">
+                            <label for="timeline-2025">AEP 2025 (Immediate)</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="timeline-2026" name="timeline" value="Planning for 2026">
+                            <label for="timeline-2026">Planning for 2026</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="timeline-general" name="timeline" value="General Inquiry">
+                            <label for="timeline-general">General Inquiry</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <input type="hidden" name="_subject" value="Medicare Clear MA - Partnership Request">
+                
+                <button type="submit" class="form-submit">Submit Request</button>
+                </form>
+        </div>
+    </div>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+        
+        // Tab functionality
+        document.querySelectorAll('.tab-button').forEach(button => {
+            button.addEventListener('click', function() {
+                const tabId = this.getAttribute('data-tab');
+                
+                document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+                
+                this.classList.add('active');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+        
+        // Email gate handling
+        document.getElementById('emailGateForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(e.target);
+            
+            await fetch(e.target.action, {
+                method: 'POST',
+                body: formData,
+                headers: { 'Accept': 'application/json' }
+            });
+            
+            document.getElementById('emailGate').classList.add('hidden');
+        });
+        
+        // Partnership modal handling
+        const partnershipModal = document.getElementById('partnershipModal');
+        const closeModalBtn = document.getElementById('closeModal');
+        const openPartnershipModalBtn = document.getElementById('openPartnershipModal');
+        const headerCTABtn = document.getElementById('headerCTA');
+        
+        // Open modal from multiple CTAs
+        [openPartnershipModalBtn, headerCTABtn].forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                partnershipModal.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+        
+        // Close modal
+        closeModalBtn.addEventListener('click', function() {
+            partnershipModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+        
+        // Close modal when clicking outside
+        partnershipModal.addEventListener('click', function(e) {
+            if (e.target === partnershipModal) {
+                partnershipModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            }
+        });
+        
+        // Partnership form submission
+        document.getElementById('partnershipForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(e.target);
+            
+            try {
+                await fetch(e.target.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+                
+                alert('Thank you! We\'ll follow up within 2 business days to discuss partnership details and measurement framework.');
+                
+                partnershipModal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+                e.target.reset();
+            } catch (error) {
+                alert('There was an error submitting your request. Please try again or email us directly.');
+            }
+        });
+    </script>
+</body>
+</html>

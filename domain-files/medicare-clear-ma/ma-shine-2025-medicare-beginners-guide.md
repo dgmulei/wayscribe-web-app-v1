@@ -48,71 +48,6 @@ SSA will not turn people away for service who are unable to make an appointment 
 TIP: Social Security highly recommends that you create a personalized Social Security account to enroll in Medicare
 ---
 
-
-# What is Medicare?
-
-Medicare is the federal health insurance program that was created in 1965 for people 65 & older and some under 65 with disabilities to help with their hospital and medical coverage. The program helps with the cost of health care but it is not comprehensive; it does not cover all medical expenses or the cost of long- term care.
-
-Different parts of Medicare help cover specific services
-- Part A – Hospital Insurance
-- Part B – Medical Insurance
-- Part D – Prescription Drug Coverage
-
-| Part C (Medicare Advantage) combines Part A, B and usually Part D in one plan. |
-| ------------------------------------------------------------------------------ |
-
-
-## Preventive Services
-Medicare does provide numerous preventive services at no cost to beneficiaries (ex. Vaccines, screenings, etc.) A complete list of these services is available at this link:
-Medicare Part B Preventive Services
-
-## Who is Eligible?
-You are eligible for Medicare if you are:
-- 65 years old or older and a U.S. citizen or lawfully permitted resident of the United States.
-- Medicare is available for certain people with disabilities who are under age 65. These individuals must have received 24 months of Social Security Disability Insurance (SSDI) benefit payments or have End Stage Renal Disease (ESRD) or Amyotrophic Lateral Sclerosis (ALS).
-- Most people are eligible for premium- free Part A if they have paid Medicare taxes long enough through their own or a spouse's or ex-spouse's work record.
-
-If you are working and covered by your employer's group health plan (or by a spouse's plan), you may want to delay enrollment in Part B and enroll only in Part A. You should check with your employer benefits manager on whether or not you need to enroll in Part B. The number of employees in your employer group health plan may determine if you need to enroll in Medicare as your primary insurance. You can also delay enrollment in Part A unless you are already collecting Social Security benefits.
-
-If you have a Health Savings Account (HSA) as part of a high deductible employer insurance plan, you may want to delay Part A because you cannot contribute to the HSA once your Part A coverage begins. You may use money that is already present in the account after you enroll in Medicare to help pay for deductibles, premiums, copayments, or coinsurance. If you contribute to your HSA after your Medicare Part A coverage starts, you may have to pay a tax penalty. You should stop HSA contributions six months prior to retiring. For further HSA questions, refer to the IRS publication 969, their Human Resources Department or professional tax accountant. IRS Publication 969 (2022) Health Savings Accounts Health Savings Accounts)
-
-Medicare has specific enrollment periods:
-
-1. Initial Enrollment Period (Parts A, B, C & D)
-2. General Enrollment Period (Parts A & B)
-3. Open Enrollment Period (Parts C & D)
-4. Medicare Advantage Open Enrollment Period (MA OEP) (Part C & D- must be enrolled in an MA plan between Jan 1st and March 31st)
-5. Special Enrollment Period (Parts B, C & D)
-
-| To enroll in Part B outside of the Initial Enrollment Period & General Enrollment, you must qualify for a Special Enrollment Period (eg. Losing Employer based coverage) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-
-
-For more information please visit:
-Medicare.gov-When does Medicare Coverage Start?
-
-**If you do not enroll during your Initial Enrollment Period, you may be subject to late enrollment PENALTIES (with some exceptions), and a possible delay in your coverage.**
----
-
-
-# Initial Enrollment Period
-
-| 3 months before the month you turn 65                                                                                                                              | 2 months before the month you turn 65 | 1 month before the month you turn 65 | The month you turn 65\*                                                                                                                                                    | 1 month after the month you turn 65 | 2 months after the month you turn 65 | 3 months after the month you turn 65 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------ | ------------------------------------ |
-| Enroll early to avoid a delay in coverage. To get Part A and Part B the month you turn 65, you must enroll during the first 3 months before the month you turn 65. |                                       |                                      | If you wait until the last 4 months of your Initial Enrollment Period to enroll, your Part B coverage will begin the first of the month following the month of enrollment. |                                     |                                      |                                      |
-
-
-*if your birthday falls on the first day of the month, your coverage would be effective a month earlier
-
-## Penalties
-
-- Part A Late Enrollment Penalty
-  - If you enroll late, and aren't eligible for premium-free Part A, your monthly premium may go up 10% for twice the number of years you signed up late.
-- Part B Late Enrollment Penalty
-  - If enrolling late, Part B penalty is a surcharge added to your monthly Part B premium for life. The Part B late enrollment penalty is calculated as 10% of the current Part B premium for every 12 month period you were not enrolled and did not have active employer coverage.
-- Part D Enrollment Penalty
-  - If you do not have Part D coverage, even if you take no prescription drugs you can incur a lifetime penalty. The Part D penalty is calculated as 1% of the national base beneficiary premium for each month you were not enrolled in a Part D plan and did not have creditable coverage.
-
 ## Protection from Penalties
 
 - Once you are eligible for Medicare, as long as you are working and covered by your employer's group health plan (or by a spouse's plan), you will not be assessed a Part B Late Enrollment penalty. You will need to provide an Employment Letter to Social Security. COBRA does not provide coverage from the Part B penalty.
@@ -125,49 +60,6 @@ Once you have enrolled in Medicare A and B via Social Security, you will have tw
 1) Original Medicare (Parts A & B) with an optional Medigap and/or standalone drug plan (Part D)
 
 2) Medicare Advantage plan (also known as Medicare Part C or MA plan). *You must have Part A and Part B in order to have a MA plan.
----
-
-
-# Medicare Advantage Plans
-
-Medicare Advantage (also known as Medicare Part C or MA plan) is an "all in one" alternative to Original Medicare (Parts A and B). These bundled plans are offered by private insurance companies that contract with Medicare to provide beneficiaries with all of their Medicare benefits that include Part A, Part B, and usually Part D.
-
-## Key Components of an MA Plan:
-
-- Out-of-pocket costs can vary. Some plans may have lower out-of-pocket costs than others for certain services.
-
-- With Medicare Advantage, you can choose between an HMO, PPO or an HMO-POS plan. You must use doctors and/or other types of providers who are in the plan's network if your Medicare Advantage Plan is an HMO (Healthcare Maintenance Organization). You may also need to get a referral to see a specialist. For PPO and HMO-POS plans, you may have the option of choosing out of network doctors but you will usually pay higher co-pays. Ask your primary doctor or other providers you use if they participate in any Medicare Advantage plans.
-
-- Emergency services will be covered anywhere within the United States. If you are traveling outside your region (zip code/county), check with your plan for coverage information.
-
-- Most plans offer extra benefits that Original Medicare doesn't cover, like routine/limited vision, hearing, and dental. Check with your plan for coverage information.
-
-- You may pay a premium for the plan in addition to the monthly premium for Part B. Some plans have no monthly premium. Make sure to check your maximum out-of-pocket cost before committing to any plan.
-
-## To be eligible for a plan, you must:
-
-- Have both Medicare Part A & Part B
-- Reside in the plan's geographic service area
-
-## When can I enroll or disenroll in a Medicare Advantage Plan?
-
-- Initial Enrollment Period
-- Special Enrollment Period
-- Open Enrollment (October 15 - December 7)
-- Medicare Advantage Open Enrollment Period (January 1 - March 31)
-
-✓ Note: You must be enrolled in a Medicare Advantage Plan between January 1st and March 31st in order to make any changes.
-
-## Things to consider before choosing Medicare Advantage:
-
-- Do your medical providers accept the plan or are you willing to change providers?
-  ➢ PLEASE call all of your providers to confirm plan acceptance!
-- How much are the premium, copays, and coinsurance?
-- What is the plan's maximum out of pocket cost for the year?
-- Do you need to get referrals to see a specialist?
-- Are your prescription drugs on the plan's formulary and what is the cost and are there any restrictions?
----
-
 
 ## Medicare Medical Savings Accounts *Not Currently available in Massachusetts*
 
@@ -186,30 +78,7 @@ In Massachusetts, there are 7 private insurance companies that offer supplement 
 
 (See pages 13-15 for a List of Medigap Plans Currently Offered in Massachusetts)
 
-## Part D Prescription Drug Plans:
 
-**Even if you do not take any prescription medications, you MUST have a Part D plan to avoid a lifetime penalty unless you have other creditable coverage.**
-
-If you have a Medicare Advantage plan, most include Part D coverage. If you do not have a Medicare Advantage plan, you can enroll in a Medicare Part D Stand-alone Prescription Drug Plan (PDP). You cannot enroll in a stand-alone Part D plan and an Medicare Advantage Prescription Drug plan (MA-PD). Beneficiaries with higher incomes will pay more than the standard premium for either type of plan due to IRMAA. Your Part D Premium Costs
-
-There are 3 phases of Part D drug coverage; 1) Deductible 2) Initial and 3) Catastrophic. Depending on your drug plan, as well as your annual prescription drug costs, you may not reach all of these phases.
-
-### Choosing a Part D Plan:
-These are the things to consider when choosing a Part D plan
-
-- What is the Total Cost (premiums and co-pays)?
-- Are your prescription drugs covered?
-- Does the plan have a deductible?
-- Are there any restrictions? (Quantity Limits, Prior Authorization, Step Therapy, or in/out of network)
-- What pharmacies are in-network and are any preferred?
-
-## Medicare Prescription Payment Plan
-
-The Medicare Prescription Payment Plan is a new payment option in the prescription drug law that works with your current drug coverage to help you manage your out-of-pocket costs for drugs covered by your plan by spreading them across the calendar year (January–December). Starting in 2025, anyone with a
-
-Medicare drug plan or Medicare health plan with drug coverage (like a Medicare Advantage Plan with drug coverage) can use this payment option. All plans offer this payment option, and participation is voluntary.
-
-If you select this payment option, each month you'll continue to pay your plan premium (if you have one), and you'll get a bill from your health or drug plan to pay for your prescription drugs (instead of paying the pharmacy). There's no cost to participate in the Medicare Prescription Payment Plan.
 ---
 
 
@@ -308,31 +177,6 @@ If you have an existing account, but forgot the username or password, click "Tro
 2. Last name
 3. Date of birth
 ---
-
-
-# Your Medicare Options
-
-<div style="text-align: right;">
-THE SHINE PROGRAM<br>
-Serving the Health<br>
-Insurance Needs<br>
-of Everyone
-</div>
-
-## REQUIRED WITH BOTH OPTIONS
-
-### MEDICARE
-
-Enrolled in Medicare Part A & Part B and continue to pay monthly premiums
-
-| OPTION #1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | OPTION #2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ### Original Medicare \*\*+\*\* - Optional Medigap plan - 3 different types of Medigap plans 1. Core 2. Supplement 1A 3. Supplement 1\* (\*Only if Medicare eligible prior to 2020) - Free to choose any doctor or hospital that accepts Medicare - No referrals needed to see specialists - Does NOT include drug coverage - When changing Medigap plans, need to call plan to disenroll \*\*+\*\*### OPTIONAL PART D #### Stand Alone Prescription Drug Plan - Multiple plans to choose from - Automatic disenrollment from Prescription Drug Plan when changing Part D plans | ### Medicare Advantage Plan (Part C) - Optional "Replacement" - Must maintain Part A & Part B and must pay Part B premium - 5 types of MA plans 1. HMO (Health Maintenance Organization) - May use network providers only 2. HMO-POS (HMO with Point Of Service)- HMO with limited out of network coverage 3. PPO (Preferred Provider Organization)- Can go out of network for extra $ 4. SNP (Special Needs Plans) HMOs for institutionalized individuals or dual eligible - Usually includes prescription drug coverage. - Cannot have separate Part D plan - Cannot live outside service area for more than 6 consecutive months - Covers some extra benefits - Usually need referrals to see specialists - May have co-pays and deductibles - Plans can include prescription drug coverage - Automatic disenrollment when changing Medicare Advantage Plans |
-
-
-Page 9 of 15
----
-
 
 # Medicare Advantage Plans in Massachusetts 2025
 

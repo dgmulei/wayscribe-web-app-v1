@@ -1,47 +1,6 @@
-# **Help with Medicare Costs** **Medicare Savings Programs**
+# Applying for Medicare Savings Programs in Massachusetts
 
-**This application is to see if you are eligible for help paying your Medicare Part B premiums, Medicare Part A premiums if you have them, or Part A or B copays or deductibles.**
-
-**What may be covered depends on your and your spouse’s (if you are married) income.**
-
-**If you are eligible for a Medicare Savings Program, you will also be enrolled in Medicare Part D Extra Help. Extra Help may help with prescription drug costs.** 
-
-You can use this application to apply for the Supplemental Nutrition Assistance Program (SNAP). SNAP is a federal program that helps you buy food each month. If you are interested, check the box on page 1 of the application, read the SNAP rights and responsibilities on pages 3 through 6, and sign on page 2\. Your application will then be sent automatically to the Department of Transitional Assistance (DTA). You do not have to apply for the SNAP Program to be considered for the Medicare Savings Programs.
-
-## **How much can I have in assets?**
-
-There is no asset limit for Medicare Savings Programs in Massachusetts.
-
-## **How much can I have in income?**
-
-If your income is at or below the amounts listed here, you may qualify for help from one of several Medicare Savings Programs.
-
-| You are a | Your income is at or below\* |
-| :---- | :---- |
-| **single individual** | **$2,935 /month** |
-| **married couple** | **$3,966 /month** |
-
-\*Income limits change each year on March 1\.  
-
-You can find up-to-date information about income limits at [www.mass.gov/info-details/program-financial-guidelines-for-certain-masshealth-applicants-and-members](https://www.mass.gov/info-details/program-financial-guidelines-for-certain-masshealth-applicants-and-members).
-
-There are certain deductions that MassHealth may subtract from your gross income when we calculate your countable income. These deductions are described in regulations 130 CMR 520.012 through 520.014.
-
-## **If I am eligible for one of the Medicare Savings Programs, how do I get paid?**
-
-If MassHealth finds that you are eligible for payment of all of your Medicare Part B premium, we will tell Medicare. 
-
-If your Medicare Part B premium is deducted from your Social Security benefit, your Medicare premium will no longer be deducted. This means that the amount of your Social Security benefit will increase by the amount that used to be deducted to pay for your Medicare Part B premium.
-
-If you are eligible for Medicare Part B but not yet getting it (or if you are paying your Medicare Part B premium in some other way, like getting a quarterly bill from Medicare), MassHealth will start paying this bill for you.
-
-It will take several months for your Social Security benefit to increase or for MassHealth to start paying your Medicare bill. You will be paid back the amount you paid Medicare for your Part B premiums back to the month you became eligible for a Medicare Savings Program. You will get this refund the same way you now get your Social Security benefits.
-
-## **When does coverage begin?**
-
-You will get a notice in the mail about your coverage and when it starts. Your coverage may begin in the month we process your application or as early as three months before that.
-
-If you are not eligible, the notice will give you the reason(s) you are not eligible. If you think the decision is wrong, you have the right to appeal it. Information about how to appeal is on the back of the written notice.
+Medicare Savings Programs (QMB, SLMB, QI) help pay Medicare costs for eligible Massachusetts residents. For complete information on what these programs cover, see the federal Medicare & You handbook Section 7. This guide explains how to apply in Massachusetts.
 
 ## **How we use your Social Security number** 
 

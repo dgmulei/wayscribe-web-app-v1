@@ -1,5 +1,5 @@
 {
-  "domain": "medicare-medicaid-ma",
+  "domain": "medicare-clear-ma",
   "activation_pattern": "discovery-first",
   "consultation_unlocks": {
     "required": [],
