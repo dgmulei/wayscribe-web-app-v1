@@ -1,9 +1,9 @@
 {
   "domain": "medicare-clear-ma",
   "orchestration_behavior": {
-    "information_gathering_intensity": 6,
-    "guidance_directiveness": 5,
-    "conversation_pacing": 4
+    "information_gathering_intensity": 5,
+    "guidance_directiveness": 4,
+    "conversation_pacing": 7
   },
   "consultation_phases": [
     "initial_understanding",

@@ -5,7 +5,7 @@
   "personalization_approach": {},
   "qualification_strategy": "none",
   "personalization_settings": {
-    "language_matching": "mirror_user_patterns",
-    "native_language": "offer_when_struggling"
+    "language_matching": "immediate_switch",
+    "native_language": "always_honor_requests"
   }
 }
